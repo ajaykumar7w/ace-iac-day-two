@@ -1,6 +1,6 @@
 // ACE-IAC Git Aviatrix Infrastructure
 
-data "aviatrix_spoke_gateway" "egress" {
+data "aviatrix_gateway" "egress" {
   gw_name = var.azure_spoke2_name
 }
 
